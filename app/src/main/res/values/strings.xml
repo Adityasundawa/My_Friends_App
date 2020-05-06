@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyFriends</string>
+    <string-array name="gender">
+        <item>Pilih Jenis Kelamin</item>
+        <item>Laki Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
