@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtFriendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/txtFriendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/txtFriendTelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telp"
+        android:textSize="18dp" />
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:layout_height="0.5dp"/>
+
+</LinearLayout>
